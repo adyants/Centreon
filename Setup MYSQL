@@ -1,0 +1,7 @@
+# Centreon
+
+# Setup MySQL
+mysql -e "grant all on centreon.* to 'centreon'@localhost identified by 'centreon';"
+mysql -e "grant all on centreon_storage.* to 'centreon'@localhost identified by 'centreon'"
+mysql -e "grant all on centreon_status.* to 'centreon'@localhost identified by 'centreon';"
+#
